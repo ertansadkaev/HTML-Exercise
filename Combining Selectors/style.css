@@ -1,24 +1,21 @@
 /* Write your code here: */
-h1 {
-    color: blue;
+h1, h2 {
+    color: blueviolet;
 }
-h2 {
-    color: red;
+.box > p {
+    color: firebrick;
 }
 .box {
-    background-color: rgb(59, 2, 109);
+    background-color: rgb(183, 124, 234);
 }
-div p {
-    color: yellow;
+.box li {
+    color: blue;
 }
-ul li {
-    color: white;
-}
-li[class] {
+li.done {
     color: orange;
 }
-ul p {
-    color: brown;
+ul p.done {
+    font-size: 0.5rem;
 }
 p {
     color: blueviolet;
