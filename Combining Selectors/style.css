@@ -1,1 +1,25 @@
 /* Write your code here: */
+h1 {
+    color: blue;
+}
+h2 {
+    color: red;
+}
+.box {
+    background-color: rgb(59, 2, 109);
+}
+div p {
+    color: yellow;
+}
+ul li {
+    color: white;
+}
+li[class] {
+    color: orange;
+}
+ul p {
+    color: brown;
+}
+p {
+    color: blueviolet;
+}
