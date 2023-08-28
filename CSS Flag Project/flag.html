@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .flag {
+        margin-left: 10px;
+        background-color: white;
+        border-top: black solid 2px;
+        border-left: black solid 2px;
+        border-right: black solid 2px ;
+        width: 900px;
+        height: 200px;
+        position: relative;
+    }
+    .flag > div {
+        background-color: green;
+        border-left: black solid 2px;
+        border-right: black solid 2px ;
+        width: 900px;
+        height: 200px;
+        position: absolute;
+        top: 200px;
+        right: 0,50090px;
+    }
+    .flag > div > div {
+        background-color: red;
+        border-bottom: black solid 2px;
+        border-left: black solid 2px;
+        border-right: black solid 2px ;
+        width: 900px;
+        height: 200px;
+        position: absolute;
+        top: 200px
+    }
+
+    
+  </style>
+</head>
+
+<body>
+<div>
+  <div class="flag">
+    <div>
+      <div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
